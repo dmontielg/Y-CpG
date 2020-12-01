@@ -12,7 +12,7 @@ Department of Genetic Identification, Erasmus MC University Medical Center Rotte
     RAM requirements: Especially for data preprocessing, and data normalization use at least 120 GB of RAM.
 
 
-## Scripts sctructure
+## Scripts
 
 
 
