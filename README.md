@@ -14,7 +14,7 @@ Department of Genetic Identification, Erasmus MC University Medical Center Rotte
 
 ## Structure
     
-Datasets: Scripts employed in the preprocessing of 450K data whose raw IDAT data are available in the Gene [Expression Omnibus database  [GEO](https://www.ncbi.nlm.nih.gov/geo/): [GSE128235](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128235), [GSE100386](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100386), [GSE125105](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125105), [GSE61496](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61496), [GSE87571](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87571), and [GSE115278](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115278).
+Datasets: Scripts employed in the preprocessing of 450K data whose raw IDAT data are available in the [Gene Expression Omnibus database](https://www.ncbi.nlm.nih.gov/geo/): [GSE128235](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128235), [GSE100386](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100386), [GSE125105](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125105), [GSE61496](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61496), [GSE87571](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87571), and [GSE115278](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115278).
 
 
 * *quality_control.R*: quality control assessment of probes/cpg-sites, samples and sex prediction
