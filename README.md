@@ -17,27 +17,27 @@ Department of Genetic Identification, Erasmus MC University Medical Center Rotte
 Datasets: Scripts employed in the preprocessing of 450K data whose raw IDAT data are available in the Gene [Expression Omnibus database  [GEO](https://www.ncbi.nlm.nih.gov/geo/): [GSE128235](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128235), [GSE100386](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100386), [GSE125105](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125105), [GSE61496](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61496), [GSE87571](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87571), and [GSE115278](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115278).
 
 
-*quality_control.R*: quality control assessment of probes/cpg-sites, samples and sex prediction
+* *quality_control.R*: quality control assessment of probes/cpg-sites, samples and sex prediction
 
-*normalization.R*: normalization pipeline for all raw IDATs. !! Warning, using all 1057 samples requires approximately ~160GB RAM to store matrix transformation and tested with 40 CPUs.
+* *normalization.R*: normalization pipeline for all raw IDATs. !! Warning, using all 1057 samples requires approximately ~160GB RAM to store matrix transformation and tested with 40 CPUs.
 
-*train.R*: model training using Support vector Machines with Radial Kernel and eps-regression technique
+* *train.R*: model training using Support vector Machines with Radial Kernel and eps-regression technique
 
-*predict.R*: script for predicting age using pre-normalized beta values
+* *predict.R*: script for predicting age using pre-normalized beta values
 
-*plots.R*: plots generated as seen in the paper. Including violing plots, histograms and scatter-plots
+* *plots.R*: plots generated as seen in the paper. Including violing plots, histograms and scatter-plots
 
-*annotation.R*: employed in the functional annotation of evCpGs.
+* *annotation.R*: employed in the functional annotation of evCpGs.
 
-*probes_correlation.R*: age correlation among all Y-Cpg probes as in the paper
+* *probes_correlation.R*: age correlation among all Y-Cpg probes as in the paper
 
-*data/qc/* list of probes used for data preprocessing/normalization for train + validation and test set
+* *data/qc/* list of probes used for data preprocessing/normalization for train + validation and test set
 
-*data/annotation/* annotation and correlation files to be used on Integrative Genomics Viewer (IGV)
+* *data/annotation/* annotation and correlation files to be used on Integrative Genomics Viewer (IGV)
 
-*data/feature_selection/* list of CpG sites based on IQR (> 1.0) and Stepwise-Forward feature selection
+* *data/feature_selection/* list of CpG sites based on IQR (> 1.0) and Stepwise-Forward feature selection
 
-*data/normalized/* contains normalized methylation beta values BMIQ + ENmix for horvath and Y-chromosome
+* *data/normalized/* contains normalized methylation beta values BMIQ + ENmix for horvath and Y-chromosome
 
 
 Please contact me at d.montielgonzalez@erasmusmc.nl for any questions or issues concerning the scripts.
