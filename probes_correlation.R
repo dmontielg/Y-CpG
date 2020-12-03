@@ -15,7 +15,7 @@
 ############################################################################
 
 
-setwd("/media/disk1/diego/git/Y-CpG")
+setwd("/PATH/Y-CpG")
 
 # load libraries
 

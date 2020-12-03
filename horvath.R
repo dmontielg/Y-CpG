@@ -18,7 +18,7 @@ library(data.table)
 library(Metrics)
 library(MLmetrics)
 
-setwd("/media/disk1/diego/git/Y-CpG")
+setwd("/PATH/Y-CpG")
 
 ## Input data
 df.train.pheno <- read.csv("data/train.pheno.csv")

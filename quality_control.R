@@ -20,7 +20,7 @@ library(wateRmelon)
 library(ENmix)
 library(RPMM)
 
-setwd("PATH/IDAT/")
+setwd("PATH/Y-CpG/IDAT/")
 
 ## IDATs QC
 
