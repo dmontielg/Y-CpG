@@ -1,6 +1,7 @@
 
 # Male-specific age estimation based on Y-chromosomal DNA methylation
 
+[![DOI](https://zenodo.org/badge/318227081.svg)](https://zenodo.org/badge/latestdoi/318227081)
 
 #### Athina Vidaki, Diego Montiel González, Benjamin Planterose Jiménez, Manfred Kayser
 Department of Genetic Identification, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands.
@@ -35,7 +36,7 @@ Datasets: Scripts employed in the preprocessing of 450K data whose raw IDAT data
 
 * *data/annotation/* annotation and correlation files to be used on Integrative Genomics Viewer (IGV)
 
-* *data/feature_selection/* list of CpG sites based on IQR (> 1.0) and Stepwise-Forward feature selection
+* *data/feature_selection/* list of CpG sites based on IQR (> 0.1) and Stepwise-Forward feature selection
 
 * *data/normalized/* contains normalized methylation beta values BMIQ + ENmix for horvath and Y-chromosome
 
